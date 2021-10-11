@@ -1,6 +1,6 @@
 <?php
 
-$serverName = "msql";
+$serverName = "mysql";
 $db_user = "php";
 $db_pass = "php";
 $db_name = "cloud_computing";
