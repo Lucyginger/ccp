@@ -18,11 +18,9 @@
                 <a href="index.php"><img src="img/logo.png" alt="logo"></a>
                 <ul>
                     <li><a href="index.php">Home</a></li>
-                    <li><a href="index.php">About</a></li>
-                    <li><a href="index.php">Shop</a></li>
                     <?php
                         if (isset($_SESSION["username"])) {
-                            echo "<li><a href='profile.php'>Profile</a></li>";
+                            echo "<li><a href='book.php'>Book</a></li>";
                             echo "<li><a href='includes/logout.inc.php'>Log out</a></li>";
 
                         }
